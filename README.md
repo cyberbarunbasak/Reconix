@@ -18,8 +18,6 @@
 ---
 
 
----
-
 ## 🛠 Installation
 
 ```bash
@@ -27,3 +25,35 @@ git clone https://github.com/cyberbarunbasak/Reconix.git
 cd Reconix
 pip3 install requests
 python3 scanner.py
+
+## 🧪 Usage
+
+```bash
+python3 scanner.py <target>
+```
+
+Example:
+
+```bash
+python3 scanner.py example.com
+```
+
+## 📝 Output
+📄 Scan Report for 192.168.xx.xx
+
+[+] Port 22/tcp OPEN | Service: ssh | Version: OpenSSH 8.2
+↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=ssh
+
+[+] Port 80/tcp OPEN | Service: http | Version: Apache 2.4.41
+↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=http
+
+📌 Legal Disclaimer
+This tool is intended for educational purposes only.
+Unauthorized scanning or recon on systems you do not own is strictly illegal.
+
+🙌 Support & Connect
+If you found Reconix useful, please consider:
+
+⭐ Starring this repository
+
+👤 Following me on GitHub
