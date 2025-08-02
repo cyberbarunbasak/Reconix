@@ -1,45 +1,34 @@
-# 🚀 Reconix
+# 🔎 Reconix – Terminal Recon Tool in Python
 
-A terminal-based Python reconnaissance and port scanning tool—simple, fast, and Nmap-inspired. 
+**Reconix** is a fast, terminal-based reconnaissance and port scanning tool developed for ethical hacking, CTFs, and cybersecurity enthusiasts.
 
-## ⚡ Features
+> ⚠ For educational use only. Unauthorized scanning is illegal.
 
-- Fast multi-threaded port scanning (like `nmap -T4`)
-- DNS resolution
-- HTTP header grabbing
-- WHOIS lookup
-- Saves results to `ip.txt`
-- Python-only (no external binaries)
+---
 
-## 🛠️ Installation
+## 🚀 Features
+
+- ⚡ Multi-threaded TCP port scanner (1–1024)
+- 🔍 Service detection (with banner grabbing)
+- 🌐 Exploit-DB link suggestions based on service
+- 📄 Auto-generates detailed `<ip>.txt` scan report
+- 🖥 Simple terminal usage with no external dependencies
+- 🧑‍💻 100% Python – no login, no API keys
+
+---
+
+## 📸 Demo
+
+### Terminal Output
+assets/screenshots/Screenshot 2025-08-02 101821
+assets/screenshots/Screenshot 2025-08-02 102012
+
+---
+
+## 🛠 Installation
 
 ```bash
-git clone https://github.com/yourusername/Reconix.git
+git clone https://github.com/cyberbarunbasak/Reconix.git
 cd Reconix
-pip install -r requirements.txt
-```
-
-## 🧪 Usage
-
-```bash
-python3 scanner.py <target>
-```
-
-Example:
-
-```bash
-python3 scanner.py example.com
-```
-
-## 📝 Output
-
-- Port scan results shown in terminal
-- Automatically saved to `ip.txt`
-
-## 📄 License
-
-MIT License
-
-## 🤝 Contribute
-
-PRs welcome! If you’d like to add features or fix bugs, feel free to fork and submit pull requests.
+pip3 install requests
+python3 scanner.py
