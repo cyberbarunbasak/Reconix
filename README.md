@@ -64,7 +64,7 @@ python3 scanner.py 192.168.50.129
 ## 📄 Sample Output
 
 ```bash
-📄 Scan Report for 192.168.50.129
+📄 Scan Report for 192.168.xxx.xx
 
 [+] Port 22/tcp OPEN | Service: ssh | Version: OpenSSH 8.2
     ↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=ssh
@@ -75,7 +75,7 @@ python3 scanner.py 192.168.50.129
 ✔ Thanks For Using , Have a Good Day
 ```
 
-A file like `192.168.50.129.txt` will be saved in your project folder.
+A file like `192.168.xxx.xx.txt` will be saved in your project folder.
 
 ---
 
