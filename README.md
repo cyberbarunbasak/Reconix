@@ -56,7 +56,7 @@ python3 scanner.py <target>
 **Example:**
 
 ```bash
-python3 scanner.py 192.168.50.129
+python3 scanner.py 192.168.xxx.xx
 ```
 
 ---
