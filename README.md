@@ -1,30 +1,51 @@
-# 🔎 Reconix – Terminal Recon Tool in Python
+<h1 align="center">🔎 Reconix</h1>
+<p align="center">A blazing-fast terminal reconnaissance tool for ethical hackers, CTF players, and cybersecurity analysts.</p>
 
-**Reconix** is a fast, terminal-based reconnaissance and port scanning tool developed for ethical hacking, CTFs, and cybersecurity enthusiasts.
-
-> ⚠ For educational use only. Unauthorized scanning is illegal.
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20With-Python3-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
+  <img src="https://img.shields.io/github/last-commit/cyberbarunbasak/Reconix?style=flat-square">
+</p>
 
 ---
 
 ## 🚀 Features
 
-- ⚡ Multi-threaded TCP port scanner (1–1024)
-- 🔍 Service detection (with banner grabbing)
-- 🌐 Exploit-DB link suggestions based on service
-- 📄 Auto-generates detailed `<ip>.txt` scan report
-- 🖥 Simple terminal usage with no external dependencies
-- 🧑‍💻 100% Python – no login, no API keys
+* ⚡ Multi-threaded TCP port scanner (ports 1–1024)
+* 🔍 Service detection with banner grabbing
+* 🌐 Suggests relevant exploits via Exploit-DB
+* 📜 Auto-generates detailed `<ip>.txt` report
+* 🖥️ Simple terminal interface (no GUI)
+* 🧑‍💻 100% Python – no logins, no API keys, no external binaries
 
 ---
 
+## 📸 Demo
 
-## 🛠 Installation
+Below are real usage screenshots of Reconix in action:
+
+### 🖥 Terminal Scan Interface
+
+![Screenshot](assets/screenshots/Screenshot%202025-08-02%20101821.png)
+
+### 🧾 Output with Exploit Links
+
+![Screenshot](assets/screenshots/Screenshot%202025-08-02%20102012.png)
+
+📁 View folder: [assets/screenshots](https://github.com/cyberbarunbasak/Reconix/tree/main/assets/screenshots)
+
+---
+
+## 🛠️ Installation
 
 ```bash
 git clone https://github.com/cyberbarunbasak/Reconix.git
 cd Reconix
 pip3 install requests
 python3 scanner.py
+```
+
+---
 
 ## 🧪 Usage
 
@@ -32,32 +53,49 @@ python3 scanner.py
 python3 scanner.py <target>
 ```
 
-Example:
+**Example:**
 
 ```bash
-python3 scanner.py example.com
+python3 scanner.py 192.168.50.129
 ```
 
-## 📝 Output
-📄 Scan Report for 192.168.xx.xx
+---
+
+## 📄 Sample Output
+
+```bash
+📄 Scan Report for 192.168.50.129
 
 [+] Port 22/tcp OPEN | Service: ssh | Version: OpenSSH 8.2
-↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=ssh
+    ↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=ssh
 
 [+] Port 80/tcp OPEN | Service: http | Version: Apache 2.4.41
-↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=http
+    ↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=http
 
+✔ Thanks For Using , Have a Good Day
 ```
 
-## 📌 Legal Disclaimer
-This tool is intended for educational purposes only.
-Unauthorized scanning or recon on systems you do not own is strictly illegal.
+A file like `192.168.50.129.txt` will be saved in your project folder.
 
+---
 
-🙌 Support & Connect
-If you found Reconix useful, please consider:
+## ⚖️ Legal Disclaimer
 
+> **Reconix is intended for educational and ethical use only.**
+> Unauthorized scanning or reconnaissance on systems you do not own is illegal and punishable under law.
 
-⭐ Starring this repository
+---
 
-👤 Following me on GitHub
+## 🙌 Support & Connect
+
+If you found **Reconix** useful:
+
+* ⭐ Star this repository to support the project
+* 👤 [Follow me on GitHub](https://github.com/cyberbarunbasak)
+* 🔁 Share with your cybersecurity friends and CTF teams
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://github.com/cyberbarunbasak/Reconix/blob/main/LICENSE).
