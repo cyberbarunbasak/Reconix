@@ -17,11 +17,6 @@
 
 ---
 
-## 📸 Demo
-
-### Terminal Output
-assets/screenshots/Screenshot 2025-08-02 101821
-assets/screenshots/Screenshot 2025-08-02 102012
 
 ---
 
