@@ -47,12 +47,16 @@ python3 scanner.py example.com
 [+] Port 80/tcp OPEN | Service: http | Version: Apache 2.4.41
 ↪ Possible exploits: https://www.exploit-db.com/search?cve=&description=http
 
-📌 Legal Disclaimer
+```
+
+## 📌 Legal Disclaimer
 This tool is intended for educational purposes only.
 Unauthorized scanning or recon on systems you do not own is strictly illegal.
 
+
 🙌 Support & Connect
 If you found Reconix useful, please consider:
+
 
 ⭐ Starring this repository
 
